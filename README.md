@@ -1,8 +1,7 @@
-# ESP MQTT JSON Digital LEDs
+# Magnetic Triangular LED Lights Home assistant controller
+(Initial project : https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs )
 
-This project shows a super easy way to get started using Digital LED strips with [Home Assistant](https://home-assistant.io/), a sick, open-source Home Automation platform that can do just about anything. 
-
-The code covered in this repository utilizes [Home Assistant's MQTT JSON Light Component](https://home-assistant.io/components/light.mqtt_json/) and an ESP8266 microcontroller. 
+This project control my DIY 3d printed nanoleaf [thingiverse](https://www.thingiverse.com/thing:3372353) with Home assistant
 
 #### Supported Features Include
 - RGB Color Selection
@@ -19,13 +18,6 @@ The default speed for the effects is hard coded and is set when the light is fir
 
 #### OTA Uploading
 This code also supports remote uploading to the ESP8266 using Arduino's OTA library. To utilize this, you'll need to first upload the sketch using the traditional USB method. However, if you need to update your code after that, your WIFI-connected ESP chip should show up as an option under Tools -> Port -> Porch at your.ip.address.xxx. More information on OTA uploading can be found [here](http://esp8266.github.io/Arduino/versions/2.0.0/doc/ota_updates/ota_updates.html). Note: You cannot access the serial monitor over WIFI at this point.  
-
-
-#### Demo Video
-[![Demo Video](http://i.imgur.com/cpW2JAX.png)](https://www.youtube.com/watch?v=DQZ4x6Z3678 "Demo - RGB Digital LED Strip controlled using ESP, MQTT, and Home Assistant")
-
-#### Tutorial Video
-[![Tutorial Video](http://i.imgur.com/9UMl8Xo.jpg)](https://www.youtube.com/watch?v=9KI36GTgwuQ "The BEST Digital LED Strip Light Tutorial - DIY, WIFI-Controllable via ESP, MQTT, and Home Assistant")
 
 #### Parts List
 - [Digital RGB Leds](http://geni.us/8mBml)
